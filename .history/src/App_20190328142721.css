@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.Clock {
+  height: 200px;
+  background: gray;
+}

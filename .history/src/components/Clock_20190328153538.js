@@ -31,7 +31,7 @@ class Clock extends React.Component {
 
   render() {
     return (
-      <div className = "Clock">
+      <div className = "Clock gray-box">
       <p>
         The date and time are: {this.state.time}
       </p>

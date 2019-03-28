@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-// my map: https://maps.googleapis.com/maps/api/js?key=AIzaSyCrbuDGnqcHSG6nK1oo2PyiiXvsyWLZelo&callback=myMap
+
  
-class Map extends React.Component {
+class App extends Component {
   constructor(props){
     super(props)
 
@@ -19,15 +19,11 @@ class Map extends React.Component {
     return (
       <div className="Map">
 
-<div id="googleMap">
-
-</div>
-
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrbuDGnqcHSG6nK1oo2PyiiXvsyWLZelo&callback=myMap"></script>
 
       </div>
     );
   }
 }
 
-export default Map;
+export default App;

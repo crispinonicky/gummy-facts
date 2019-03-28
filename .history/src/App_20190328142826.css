@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  background: lightblue;
+}
+
+.Clock {
+  height: 200px;
+  background: gray;
+}
+
+.Count {
+  height: 200px;
+  background: darkgrey;
+}

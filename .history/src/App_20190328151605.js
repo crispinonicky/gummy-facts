@@ -22,9 +22,12 @@ class App extends Component {
       <div className="App">
 
 
+      <h1>
+        Hi {this.state.name}!
+      </h1>
+
         <Clock />
         <GummyCount />
-        <Map />
 
 
       </div>

@@ -7,7 +7,7 @@
 
 .Clock {
   height: 200px;
-  background: linear-gradient(grey, black);
+  background: gray;
 }
 
 .Clock p {
@@ -25,12 +25,10 @@
 }
 
 .gray-box{
-  position: relative;
-  left: 33%;
-  padding: 10px 10px 0 10px;
+  padding-top: 10px;
   background-color: rgba(0, 0, 0, 0.8);
   height: 240px;
-  width: 34%;
+  width: 440px;
   border-radius: 35px;
 }
 

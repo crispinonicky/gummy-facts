@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.Clock {
+  height: 200px;
+  background: gray;
+}
+
+.Clock p {
+  position: relative;
+  top: 90px;
+  
+}
+
+.Count {
+  height: 300px;
+  background: url('./images/gummy\ bears.jpg');
+  background-size: cover;
+  padding-top: 50px;
+
+}
+
+/* #googleMap {
+  height: 300px;
+  width: 400px;
+} */

@@ -33,7 +33,7 @@ class Clock extends React.Component {
     return (
       <div className = "Clock">
       <p>
-        The date and time are: {this.state.time}
+        The time is {this.state.time}
       </p>
       </div>
     );
@@ -41,6 +41,7 @@ class Clock extends React.Component {
 }
 
 console.log(typeof time)
+
 
 
 export default Clock;

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import Clock from './components/Clock';
 import GummyCount from './components/GummyCount';
-import Map from './components/Map';
 
 
 class App extends Component {
@@ -22,9 +21,12 @@ class App extends Component {
       <div className="App">
 
 
+      <p>
+        Hi {this.state.name}!
+      </p>
+
         <Clock />
         <GummyCount />
-        <Map />
 
 
       </div>

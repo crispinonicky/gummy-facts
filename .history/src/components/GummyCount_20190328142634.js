@@ -25,9 +25,8 @@ class GummyCount extends React.Component {
   render() {
 
     return (
-<div>
+
       <div className = "Count">
-      <div className = "gray-box">
         <p>
         And ever since you opened this page, approximately 
         <br/>
@@ -35,11 +34,6 @@ class GummyCount extends React.Component {
         <br/>
         gummy bears have been given life 🐻🐻🐻🐻🐻🐻🐻
         </p>
-        <h4>
-          Please do not eat them all, or else you will probably get sick.
-        </h4>
-        </div>
-      </div>
       </div>
     );
   }

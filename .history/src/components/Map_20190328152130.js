@@ -19,9 +19,7 @@ class Map extends React.Component {
     return (
       <div className="Map">
 
-<div id="googleMap">
-
-</div>
+<div id="googleMap" style="width:100%;height:400px;"></div>
 
 
 

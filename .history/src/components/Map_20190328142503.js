@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
-import Clock from './components/Clock';
-import GummyCount from './components/GummyCount';
-import Map from './components/Map';
+import '../App.css';
 
 
+ 
 class App extends Component {
   constructor(props){
     super(props)
@@ -13,18 +11,14 @@ class App extends Component {
       name: "Nick"
     }
 
-  } 
+  }
 
 
 
   render() {
     return (
-      <div className="App">
+      <div className="Map">
 
-
-        <Clock />
-        <GummyCount />
-        <Map />
 
 
       </div>

@@ -27,7 +27,7 @@ class GummyCount extends React.Component {
     return (
 <div>
       <div className = "Count">
-      <div className = "gray-box">
+      <div>
         <p>
         And ever since you opened this page, approximately 
         <br/>

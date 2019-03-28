@@ -3,7 +3,7 @@ import '../App.css';
 
 // my map: https://maps.googleapis.com/maps/api/js?key=AIzaSyCrbuDGnqcHSG6nK1oo2PyiiXvsyWLZelo&callback=myMap
  
-class Map extends React.Component {
+class Map extends Component {
   constructor(props){
     super(props)
 
@@ -19,9 +19,7 @@ class Map extends React.Component {
     return (
       <div className="Map">
 
-<div id="googleMap">
-
-</div>
+<div id="googleMap" style="width:100%;height:400px;"></div>
 
 
 

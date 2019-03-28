@@ -7,7 +7,7 @@
 
 .Clock {
   height: 200px;
-  background: linear-gradient(grey, black);
+  background: gray;
 }
 
 .Clock p {
