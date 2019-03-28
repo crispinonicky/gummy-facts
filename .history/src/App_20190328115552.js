@@ -1,34 +1,20 @@
 import React, { Component } from 'react';
+import logo from './logo.svg';
 import './App.css';
 import Clock from './components/Clock';
-import GummyCount from './components/GummyCount';
 
+let time = new Date().toLocaleString();
 
 class App extends Component {
-  constructor(props){
-    super(props)
-
-    this.state = {
-      name: "Nick"
-    }
-
-  }
-
-
-
   render() {
     return (
       <div className="App">
-
-
-      <p>
-        Hi {this.state.name}!
-      </p>
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
 
         <Clock />
-        <GummyCount />
 
-
+        </header>
       </div>
     );
   }

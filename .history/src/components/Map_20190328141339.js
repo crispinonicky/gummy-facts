@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
-import Clock from './components/Clock';
-import GummyCount from './components/GummyCount';
+import '../App.css';
+
 
 
 class App extends Component {
