@@ -31,9 +31,9 @@ class GummyCount extends React.Component {
         <p>
         And ever since you opened this page, approximately 
         <br/>
-        <h1>{this.state.seconds * 116}</h1>
+        <h1>{Math.round(this.state.seconds * 11.57)}</h1>
         <br/>
-        gummy bears have been given life 🐻🐻🐻🐻🐻🐻🐻
+        Haribo gummy bears have been given life 🐻🐻🐻🐻🐻🐻🐻
         </p>
         <h4>
           Please do not eat them all, or else you will probably get sick.
